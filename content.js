@@ -34,7 +34,7 @@ window.SITE = {
 
   bio: [
     // One string per paragraph.
-    "I am a PhD candidate in Finance at the University of Zurich and the Swiss Finance Institute. My main advisor is Prof. Markus Leippold. My research focuses on behavioral finance, empirical asset pricing, and machine learning in finance.",
+    "I am a PhD candidate in Finance at the University of Zurich and the Swiss Finance Institute. My main advisor is Prof. Markus Leippold. Currently, I am a visiting PhD student at University of Southern California, marshall school of business, hosted by Prof. David Hirshleifer. My research focuses on behavioral finance, empirical asset pricing, and machine learning in finance.",
   ],
 
   interests: ["Behavioral Finance", "Empirical Asset Pricing", "Machine Learning in Finance"],
@@ -106,7 +106,8 @@ window.SITE = {
 
   // Optional: references / letter writers. Leave [] to hide the section.
   references: [
-    // { name: "Prof. Markus Leippold", place: "University of Zurich", email: "" },
+    { name: "Prof. Markus Leippold", place: "University of Zurich", email: "markus.leippold@df.uzh.ch" },
+    { name: "Prof. Florian Scheuer", place: "University of Zurich", email: "florian.scheuer@uzh.ch" },
   ],
 
   footer: "Last updated: November 2026",
