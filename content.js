@@ -108,6 +108,7 @@ window.SITE = {
   references: [
     { name: "Prof. Markus Leippold", place: "University of Zurich", email: "markus.leippold@df.uzh.ch" },
     { name: "Prof. Florian Scheuer", place: "University of Zurich", email: "florian.scheuer@uzh.ch" },
+    { name: "Prof. Eduardo Azevedo", place: "University of Pennsylvania's Wharton School", email: "eazevedo@wharton.upenn.edu" },
   ],
 
   footer: "Last updated: November 2026",
