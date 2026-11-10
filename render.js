@@ -87,11 +87,6 @@
     b.setAttribute("aria-expanded", String(!box.hidden));
   });
 
-  // Presentations
-  const pres = S.presentations || [];
-  if (pres.length) $("presentationsList").innerHTML = pres.map((p) =>
-    `<dt>${esc(p.year)}</dt><dd>${txt(p.items)}</dd>`).join("");
-  else hide("presentations");
 
   // Teaching
   const teach = S.teaching || [];
@@ -100,13 +95,7 @@
     <div class="meta">${esc(t.place)}</div></li>`).join("");
   else hide("teaching");
 
-  // Education
-  const edu = S.education || [];
-  if (edu.length) $("educationList").innerHTML = edu.map((e) => `
-    <li><div class="row"><span><strong>${esc(e.degree)}</strong></span><span class="years">${esc(e.years)}</span></div>
-    <div class="meta">${esc(e.school)}</div>
-    ${(e.details || []).length ? `<ul class="details">${e.details.map((d) => `<li>${txt(d)}</li>`).join("")}</ul>` : ""}</li>`).join("");
-  else hide("education");
+  
 
   // References
   const refs = S.references || [];
