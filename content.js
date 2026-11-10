@@ -19,7 +19,7 @@ window.SITE = {
   title: "PhD Candidate in Finance",
   affiliation: "University of Zurich & Swiss Finance Institute (SFI)",
   email: "min.yang2@df.uzh.ch",
-  photo: "", // e.g. "assets/photo.jpg" — leave "" to show initials
+  photo: "assets/photo.jpg", // leave "" to show initials
   cv: "assets/CV_MinYang.pdf",
 
   // Optional highlighted line at the top, e.g. "I am on the 2026–2027 academic job market."
