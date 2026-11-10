@@ -34,7 +34,7 @@ window.SITE = {
 
   bio: [
     // One string per paragraph.
-    "I am a PhD candidate in Finance at the University of Zurich and the Swiss Finance Institute. My main advisor is Prof. Markus Leippold. Currently, I am a visiting PhD student at University of Southern California, Marshall School of Business, hosted by Prof. David Hirshleifer. My research focuses on behavioral finance, empirical asset pricing, entrepreneurial finance and taxation.",
+    "I am a PhD candidate in Finance at the University of Zurich and the Swiss Finance Institute. My main advisor is Prof. Markus Leippold. Currently, I am a visiting PhD student at University of Southern California, Marshall School of Business, hosted by Prof. David Hirshleifer. My research focuses on behavioral finance, empirical asset pricing and entrepreneurial finance.",
   ],
 
   //interests: ["Behavioral Finance", "Empirical Asset Pricing", "Machine Learning in Finance"],
