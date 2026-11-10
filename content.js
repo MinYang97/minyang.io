@@ -20,21 +20,21 @@ window.SITE = {
   affiliation: "University of Zurich & Swiss Finance Institute (SFI)",
   email: "min.yang2@df.uzh.ch",
   photo: "assets/my.jpg", // leave "" to show initials
-  cv: "assets/CV_MinYang.pdf",
+  cv: "assets/CV_MinYang_website.pdf",
 
   // Optional highlighted line at the top, e.g. "I am on the 2026–2027 academic job market."
   announcement: "",
 
-  links: [
+  //links: [
     // Shown as icons/buttons under your name. Remove any you don't use.
-    { label: "Google Scholar", url: "" }, // TODO: add URL
-    { label: "SSRN", url: "" },
-    { label: "LinkedIn", url: "" },
-  ],
+  //  { label: "Google Scholar", url: "" }, // TODO: add URL
+  //  { label: "SSRN", url: "" },
+  //  { label: "LinkedIn", url: "" },
+  //],
 
   bio: [
     // One string per paragraph.
-    "TODO: Short bio. e.g. I am a PhD candidate in Finance at the University of Zurich and the Swiss Finance Institute, advised by Prof. Markus Leippold. My research focuses on behavioral finance, empirical asset pricing, and machine learning in finance.",
+    "I am a PhD candidate in Finance at the University of Zurich and the Swiss Finance Institute. My main advisor is Prof. Markus Leippold. My research focuses on behavioral finance, empirical asset pricing, and machine learning in finance.",
   ],
 
   interests: ["Behavioral Finance", "Empirical Asset Pricing", "Machine Learning in Finance"],
@@ -45,11 +45,11 @@ window.SITE = {
   //                    links: { pdf, ssrn, slides, journal, ... any label }
   // ---------------------------------------------------------------
   jobMarketPaper: {
-    title: "Beyond Content: News Consecutiveness, Investor Attention, and Market Reactions",
+    title: "Timing and the Teller: How Markets Price News",
     coauthors: "",
     status: "",
-    note: "SGF Conference (Poster)",
-    abstract: "TODO: Add abstract.",
+    note: "UZH Brown Bag Seminar (2026), SFI Research Days(2026), SGF Conference (Poster, 2026)",
+    abstract: "Investors react strongly to some news and barely to other news, even when the stories are equally novel and similar in tone. I show that the reaction to a story depends on when it arrives relative to prior news and on who produced it. Using Dow Jones Newswires from 2000 to 2023, I study consecutive news, a story that shares the sign of the firm's most recent prior story. Controlling for novelty and tone, consecutive stories move prices up to 9\% less than initial stories, and this discount disappears around two weeks. News origin determines what lies behind it. Consecutive stories written by journalists or third parties move prices less and generate less trading, consistent with anticipation. They are priced correctly when they arrive within days of the prior story, but are followed by return continuation when they arrive about a week later. Consecutive stories released by the firm itself generate more trading with no price discount and no subsequent drift, consistent with disagreement. The aggregate reaction is asymmetric across sentiment and investor type. Positive news sequences show rapid fatigue while negative sequences trigger persistent vigilance. Institution-dominated firms move from overreaction to underreaction across the stages but retail-dominated firms show noise trading patterns.",
     links: { pdf: "", ssrn: "" },
   },
 
@@ -59,16 +59,16 @@ window.SITE = {
       coauthors: "Eduardo Azevedo, Florian Scheuer, and Kent Smetters",
       status: "Revise & Resubmit, Quarterly Journal of Economics",
       note: "",
-      abstract: "",
-      links: { pdf: "", ssrn: "" },
+      abstract: "Recent proposals to tax unrealized capital gains or wealth have sparked a debate over their impact on entrepreneurship. We show that, under accrual-based taxation, successful founders face greater dilution from advance tax payments, whereas the effect on unsuccessful founders hinges on the treatment of capital losses: With incomplete loss offsets, founders effectively overpay taxes, whereas full tax refunds would provide a form of insurance against downside risk. Using comprehensive new data on U.S. venture capital deals, we find that founder returns are substantially lower than previously estimated and extremely skewed, with 88% of founders receiving zero exit value while the top 1% account for 79% of total value. Moving from the current realization-based tax system to accrual-based taxation would reduce founder ownership at exit by 25% on average; with full refunds, it would also increase the share of founders receiving positive payoffs from 12% to 44%. Embedding these distributions in a dynamic career choice model, we find that founders with low risk aversion prefer realization-based taxation, while more risk-averse founders prefer accrual-based taxation under complete tax credits. By contrast, a wealth tax or incomplete loss offset provisions (such as loss carry-forward) would discourage entrepreneurship: They generate similar dilution but produce no risk-sharing benefits due to the absence of tax credits in down rounds.",
+      links: { pdf: "", ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5780185" },
     },
     {
       title: "A Credibility Premium: How PhD CEOs Shape Disclosure, Market Reactions, and Risk Resolution",
       coauthors: "Markus Leippold and Qian Wang",
       status: "",
-      note: "CICF Conference",
-      abstract: "",
-      links: { pdf: "", ssrn: "" },
+      note: "UZH Brown Bag Seminar (2025), SFI Research Days(2025), 5th Global PhD Student Colloquium (2025), CICF Conference (2026)",
+      abstract: "We show that doctoral education carries a credibility premium in CEO communication. In our model, PhD training raises the personal cost of promotional language and false precision, yielding truthful but hedged disclosure. In 70,127 earnings calls (2007-2022), PhD CEOs speak less positively and more willing to acknowledge uncertainty. However, their calls earn higher abnormal returns and lower volatility. Analysts read their vagueness as epistemic humility rather than evasion: forecast dispersion rises while forecast errors fall. JD CEOs share the linguistic style but earn no premium, isolating scientific training as the source. The effects persist across CEO turnovers.",
+      links: { pdf: "", ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5116709" },
     },
   ],
 
@@ -88,21 +88,11 @@ window.SITE = {
       title: "What Drives Stablecoin Yields in DeFi Lending Markets?",
       coauthors: "Aron Bodisz and Yuan Chen",
     },
-    {
-      title: "The Signal or the Reader? Soft Information and Analyst Expectations When Hard Information is Weak",
-      coauthors: "",
-    },
   ],
 
   // ---------------------------------------------------------------
   //  OTHER SECTIONS
   // ---------------------------------------------------------------
-  presentations: [
-    { year: "2026", items: "UZH Brown Bag Seminar, SGF Conference (Poster), SFI Research Days, CICF Conference" },
-    { year: "2025", items: "5th Global PhD Student Colloquium, SFI Research Days" },
-    { year: "2024", items: "UZH Brown Bag Seminar" },
-    { year: "2023", items: "UZH Brown Bag Seminar" },
-  ],
 
   teaching: [
     {
@@ -113,36 +103,6 @@ window.SITE = {
     },
   ],
 
-  education: [
-    {
-      degree: "PhD in Finance (Candidate)",
-      school: "University of Zurich & Swiss Finance Institute",
-      years: "2022 – Present",
-      details: [
-        "Supervisor: Prof. Markus Leippold",
-        "Visiting PhD Student, USC Marshall School of Business (Host: Prof. David Hirshleifer)",
-        "First-year Doctoral Grant",
-      ],
-    },
-    {
-      degree: "MSc Quantitative Finance",
-      school: "ETH Zurich & University of Zurich",
-      years: "2020 – 2022",
-      details: [],
-    },
-    {
-      degree: "MSc Mathematical and Computational Finance",
-      school: "University of Oxford",
-      years: "2019 – 2020",
-      details: ["Graduated with Distinction"],
-    },
-    {
-      degree: "BSc Mathematics",
-      school: "Nanjing University",
-      years: "2015 – 2019",
-      details: ["National Elite Program; People’s Scholarship; Guanghua Scholarship"],
-    },
-  ],
 
   // Optional: references / letter writers. Leave [] to hide the section.
   references: [
